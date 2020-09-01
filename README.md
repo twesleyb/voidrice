@@ -1,7 +1,6 @@
-# The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+# a fork of [luke xyz's](https://github.com/lukesmithxyz/) voidrice
 
-These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on [my YouTube channel](https://youtube.com/c/lukesmithxyz).
-
+### Notes:
 - Very useful scripts are in `~/.local/bin/`
 - Settings for:
 	- vim/nvim (text editor)
