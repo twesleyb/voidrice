@@ -1,0 +1,33 @@
+# vim: filetype=sh
+#
+#dt="cd ${XDG_DATA_HOME:-$HOME/.local/share} && ls -a" \
+#pp="cd ${XDG_PICTURES_DIR:-$HOME/Pictures} && ls -a" \
+#m="cd ${XDG_MUSIC_DIR:-$HOME/Music} && ls -a" \
+#vv="cd ${XDG_VIDEOS_DIR:-$HOME/Videos} && ls -a" \
+
+alias cac="cd ${XDG_CACHE_HOME:-$HOME/.cache} && ls -a" \
+home="cd $HOME && ls -a" \
+config="cd ${XDG_CONFIG_HOME:-$HOME/.config} && ls -a" \
+mnt="cd /mnt && ls -a" \
+bin="cd $HOME/.local/bin && ls -a" \
+src="cd $HOME/.local/src && ls -a" \
+downloads="cd ${XDG_DOWNLOAD_DIR:-$HOME/downloads} && ls -a" \
+bf="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/files" \
+bw="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/bookmarks" \
+cfa="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" \
+cfz="$EDITOR $ZDOTDIR/.zshrc" \
+# edit configuration files with vim:
+cfv="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.vim" \
+cft="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/.tmux.conf" \
+cfm="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/mutt/muttrc" \
+cfx="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources" \
+cfu="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/urls" \
+cfn="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/config" \
+cfmb="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/bindings" \
+cfmc="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/config" \
+cfk="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/sxhkd/sxhkdrc" \
+cfi="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/i3/config" \
+cfb="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/i3blocks/config" \
+cff="$EDITOR ${XDG_CONFIG_HOME:-$HOME/.config}/fontconfig/fonts.conf" \
+# start R quietly
+R="R --quietly" \
